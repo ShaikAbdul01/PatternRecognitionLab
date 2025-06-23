@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UX Solution</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h3>UX Solution</h3>
+        <!-- Corrected closing tag -->
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Consultancy</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="content">
+        <h1>UI/UX DESIGN AND CONSULTING SERVICES</h1>
+        <p>
+          Compellingly mesh cross-platform portals through functional human
+          capital world-class architectures for orthogonal initiatives.
+          Assertively benchmark visionary quality vectors after covalent
+          e-tailers. Intrinsically enhance 24/7 users and supply process.
+        </p>
+      </div>
+      <div class="consultation-form">
+        <h2>Free Consultation</h2>
+        <p>Get free Consultation for UX Solution</p>
+        <form action="register.php" method="post">
+          <label for="firstName">First Name</label>
+          <input
+            type="text"
+            placeholder="First Name"
+            name="firstName"
+            required
+          />
+
+          <label for="lastName">Last Name</label>
+          <input type="text" placeholder="Last Name" name="lastName" required />
+
+          <label for="phoneNumber">Phone Number</label>
+          <input
+            type="tel"
+            placeholder="Phone Number"
+            name="phoneNumber"
+            pattern="[0-9]{10}"
+            required
+          />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            placeholder="Enter E-mail"
+            name="email"
+            required
+          />
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
